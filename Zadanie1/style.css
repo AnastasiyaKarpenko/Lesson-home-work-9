@@ -1,0 +1,14 @@
+body, * {
+    width: 1200px;
+    margin: 0 auto;
+}
+.box1{
+    margin-top: 100px;
+    width: 300px;
+    height: 150px;
+    border: 1px solid #000;
+
+    background-image:linear-gradient( /*Градиент*/
+        to top, red 33%, white 33%, white 66%, red 66%);
+
+}

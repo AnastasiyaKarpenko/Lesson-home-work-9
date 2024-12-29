@@ -1,0 +1,73 @@
+body, * {
+    width: 900px;
+    margin: 0 auto; 
+
+}
+.container {
+    width: 900px;
+    margin: 0auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container a:hover {
+    color: rgb(131, 179, 241);
+}
+a {color: rgb(29, 29, 161);
+}
+ ul {  width: 96%;
+    font-size: 12px;
+    list-style: none;
+    background-color: rgb(231, 225, 225);
+    border-radius: 5px;
+    padding:10px 20px;
+}
+li {
+    display: inline;
+}
+.container li a {
+    padding-left: 15px;
+    display: inline;
+}
+.container  a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 0;
+}
+
+
+section {
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    margin-top: 20px; 
+    padding-bottom: 10px;
+    
+}
+section h1 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 20px 0px 0px 30px;
+}
+.section-item, .section-item1 {
+    font-size: 12px;
+    vertical-align: top;
+    display: inline-block;
+    width: 165px ; /*адаем размер картинке, чтобы были на одной линии */
+    text-align: center; /*Выравниваем текст(строчный элемент) внутри блока по центру */
+   }
+   .section-item1 {
+    margin-left: 25px;
+   }
+ img {
+    height: 120px;
+    width: 130px;
+    border: 10px solid lightgrey;
+    padding: 5px;
+}
+
+section a {
+    color: rgb(29, 29, 161);
+    text-decoration: none;
+    padding: 0;
+}
+    
